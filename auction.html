@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Auctions - Flag Bitcoin Plaza</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="navbar.js" defer></script>
+  <script src="auction.js" defer></script>
+</head>
+<body>
+  <header><div class="nav-brand">Flag Bitcoin Plaza</div><nav id="navbar"></nav></header>
+  <main>
+    <h2>Auction House</h2>
+    <p>Submit your bids (demo only – no real backend).</p>
+    <form id="bidForm">
+      <input type="text" id="item" placeholder="Item name" required>
+      <input type="number" id="bid" placeholder="Bid in BTC" required>
+      <button type="submit">Place Bid</button>
+    </form>
+    <ul id="bidList"></ul>
+  </main>
+</body>
+</html>
